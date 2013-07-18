@@ -1,3 +1,3 @@
-FooCoin (FOO)
+IMoney (IMN)
 
-Blah, blah, blah.
+IMoney is a crypto currency based off of Litecoin. The name is a spoof of Apples IMoney.

@@ -34,9 +34,9 @@ QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("FOO");
-    case mBTC: return QString("mFOO");
-    case uBTC: return QString::fromUtf8("μFOO");
+    case BTC: return QString("IMD");
+    case mBTC: return QString("IMC");
+    case uBTC: return QString::fromUtf8("μIMC");
     default: return QString("???");
     }
 }
@@ -45,13 +45,13 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("FooCoin");
-    case mBTC: return QString("milliFooCoin (1 / 1,000)");
-    case uBTC: return QString("microFooCoin (1 / 1,000,000)");
+    case BTC: return QString("IMoney dollar");
+    case mBTC: return QString("IMoney cent(1 / 1,000)");
+    case uBTC: return QString("microIMoney cent (1 / 1,000,000)");
     default: return QString("???");
     }
 }
-//a single unit (.00000001) of FooCoin is called a "wander."
+//a single unit (.00000001) of IMoney is called a "Flat"
 qint64 BitcoinUnits::factor(int unit)
 {
     switch(unit)
